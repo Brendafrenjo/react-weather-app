@@ -13,6 +13,12 @@
   text-align: center;
 }
 
+.Forecast .weather-forecast {
+  border: 1px solid rgb(102, 109, 122);
+  border-radius: 10px;
+  padding: 30px;
+}
+
 .Forecast .weather-forecast-temperature-min {
   opacity: 0.6;
 }

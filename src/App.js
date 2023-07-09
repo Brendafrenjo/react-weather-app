@@ -2,6 +2,7 @@ import "./App.css";
 import Cities from "./Cities";
 import SearchEngine from "./SearchEngine";
 import Forecast from "./Forecast"
+import Coder from "./Coder"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <SearchEngine />
           <Forecast />
         </div>
+        <Coder />
       </div>
     </div>
   );
