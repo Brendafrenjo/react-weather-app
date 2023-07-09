@@ -5,8 +5,18 @@
 
 .Forecast img {
   width: 30px;
+  display: block;
+  margin: 0 auto;
 }
 
 .Forecast .forecast-content {
   text-align: center;
+}
+
+.Forecast .weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+
+.Forecast .forecast-content {
+  font-size: 13px;
 }
