@@ -6,7 +6,7 @@ export default function Corder() {
     <small>
       <div className="Corder mt-3">
         <a
-          href="https://github.com/Brendafrenjo/my-weatherapp"
+          href="https://github.com/Brendafrenjo/react-weather-app"
           target="_blank"
           rel="noreferrer"
           className="source-code"

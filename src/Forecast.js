@@ -20,8 +20,10 @@ export default function Forecast() {
                 ></img>{" "}
                 <div className="forecast-content">
                   {" "}
-                  <span class="weather-forecast-temperature-max">25°</span>{" "}
-                  <span class="weather-forecast-temperature-min">15°</span>
+                  <span className="weather-forecast-temperature-max">
+                    25°
+                  </span>{" "}
+                  <span className="weather-forecast-temperature-min">15°</span>
                 </div>
               </div>
             );
