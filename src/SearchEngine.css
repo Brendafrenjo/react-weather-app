@@ -1,0 +1,56 @@
+.SearchEngine .search-location {
+  width: 250px;
+}
+
+.SearchEngine .search-btn {
+  margin: 0;
+  width: 102px;
+}
+
+.SearchEngine .current-btn {
+  width: 102px;
+}
+
+.SearchEngine li {
+  color: white;
+}
+
+.SearchEngine ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.SearchEngine .alpha {
+  color: white;
+}
+
+.SearchEngine .city-name {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.SearchEngine .temperature {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.5;
+  position: relative;
+  left: -10px;
+}
+
+.SearchEngine .degree-sign {
+  font-size: 18px;
+  position: relative;
+  bottom: -10px;
+  left: -10px;
+}
+
+.SearchEngine img {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+  position: relative;
+  bottom: -8px;
+}

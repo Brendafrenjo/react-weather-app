@@ -1,0 +1,16 @@
+.Cities li {
+  display: inline;
+  padding: 13px;
+}
+
+.Cities ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 20px;
+  position: relative;
+  left: -12px;
+}
+
+.Cities a {
+  text-decoration: none;
+}

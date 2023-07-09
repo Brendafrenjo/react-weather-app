@@ -1,15 +1,24 @@
-.App {
-  text-align: center;
+body {
+  background: linear-gradient(
+    90.5deg,
+    rgb(250, 156, 245) 1.6%,
+    rgb(182, 76, 233) 98.2%
+  );
 }
 
+.App .container {
+  max-width: 600px;
+  padding: 5px 30px;
+  margin: 20px auto;
+}
 
-.App-header {
-  background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
+.App .weather-app {
+  border: 1px solid rgb(102, 109, 122);
+  border-radius: 10px;
+  padding: 30px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/938/original/photo-1596393458627-95a32bf31f02.jpg?1688869085);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
 }
