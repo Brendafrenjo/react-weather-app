@@ -41,7 +41,11 @@ export default function SearchEngine() {
         <div className="row">
           <div className="col-sm-7">
             <div className="d-flex weather-temperature">
-              <img src="/" alt="Weather" class="icon" />
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="Weather Icon"
+                className="icon"
+              ></img>
               <span className="temperature">16</span>
               <span className="degree-sign">°C</span>
             </div>
