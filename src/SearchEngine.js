@@ -11,7 +11,7 @@ export default function SearchEngine() {
               type="search"
               placeholder="Search location"
               className="form-control shadow search-location"
-              autoFocus
+              autoFocus="on"
             />
           </div>
           <div className="col-sm-3">

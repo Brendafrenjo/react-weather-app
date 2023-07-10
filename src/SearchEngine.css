@@ -28,13 +28,13 @@
 
 .SearchEngine .city-name {
   font-weight: 600;
-  font-size: 32px;
-  line-height: 28px;
+  font-size: 33px;
+  line-height: 29px;
   margin-bottom: 0;
 }
 
 .SearchEngine .temperature {
-  font-size: 50px;
+  font-size: 52px;
   font-weight: 700;
   line-height: 1.5;
   position: relative;
