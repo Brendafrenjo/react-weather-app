@@ -32,7 +32,7 @@ export default function SearchEngine() {
       </form>
       <div className="overview pt-4 pb-4">
         <ul>
-          <li className="city-name pb-3">Siaya</li>
+          <li className="city-name pb-3">Nairobi</li>
           <li>Last updated: Sunday 02:59</li>
           <li>Broken Clouds</li>
         </ul>

@@ -2,7 +2,7 @@ import React from "react";
 import "./Cities.css";
 
 export default function Cities() {
-  let places = ["Nairobi", "Kisumu", "Mombasa", "Nanyuki"];
+  let places = ["Kampala", "Kigali", "Dodoma", "Addis Ababa"];
   return (
     <div className="Cities">
       <ul>

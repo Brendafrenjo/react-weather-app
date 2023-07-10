@@ -1,8 +1,9 @@
 body {
   background: linear-gradient(
-    90.5deg,
-    rgb(250, 156, 245) 1.6%,
-    rgb(182, 76, 233) 98.2%
+    177.9deg,
+    rgb(248, 215, 247) 5.3%,
+    rgb(248, 215, 247) 5.3%,
+    rgb(248, 215, 247) 5.3%
   );
 }
 
@@ -16,7 +17,7 @@ body {
   border: 1px solid rgb(102, 109, 122);
   border-radius: 10px;
   padding: 30px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/938/original/photo-1596393458627-95a32bf31f02.jpg?1688869085);
   background-repeat: no-repeat;
   background-size: cover;
