@@ -55,3 +55,9 @@
   position: relative;
   bottom: -8px;
 }
+
+@media (max-width: 280px) {
+  .SearchEngine .search-location {
+  width: 220px;
+}
+}

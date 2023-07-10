@@ -1,31 +1,24 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:200");
-
 body {
-  background-image: url("https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg");
-  background-size: cover;
-  -webkit-animation: slidein 100s;
-  animation: slidein 100s;
-
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
   font-family: "Roboto", sans-serif;
-}
+  background-image: url("https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg");
 
-@-webkit-keyframes slidein {
-from {background-position: top; background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
+  animation: slidein 100s;
+  background-repeat: repeat-x;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: hsla(200, 40%, 30%, 1);
 }
 
 @keyframes slidein {
-from {background-position: top;background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
-
+  0% {
+    background-position: top;
+    background-size: 3000px;
+  }
+  100% {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
 }
 
 .App .container {
@@ -38,9 +31,19 @@ to {background-position: -100px 0px;background-size:2750px;}
   border: 1px solid rgb(102, 109, 122);
   border-radius: 10px;
   padding: 30px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/088/938/original/photo-1596393458627-95a32bf31f02.jpg?1688869085);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/089/171/original/mountain.jpeg?1689024952);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.9;
+}
+
+@media (max-width: 700px) {
+  .App .container {
+    padding: 5px 15px;
+  }
+
+  .App .weather-app {
+    padding: 15px;
+  }
 }

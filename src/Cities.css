@@ -14,3 +14,9 @@
 .Cities a {
   text-decoration: none;
 }
+
+@media (max-width: 900px) {
+  .Cities li {
+  padding: 5px;
+}
+}

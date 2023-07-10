@@ -9,11 +9,11 @@ export default function Corder() {
           href="https://github.com/Brendafrenjo/react-weather-app"
           target="_blank"
           rel="noreferrer"
-          className="source-code"
+          className="source-code text-white"
         >
           Open-source code
         </a>
-        <span className="coded-by"> by Brenda Omondi</span>
+        <span className="coded-by text-white"> by Brenda Omondi</span>
       </div>
     </small>
   );
