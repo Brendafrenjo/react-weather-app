@@ -17,6 +17,7 @@
   border: 1px solid rgb(102, 109, 122);
   border-radius: 10px;
   padding: 30px;
+  font-weight: 400;
 }
 
 .Forecast .weather-forecast-temperature-min {
