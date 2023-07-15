@@ -1,17 +1,18 @@
 import React, { useState } from "react";
+import FormattedDate from "./FormattedDate";
 import axios from "axios";
+import { BallTriangle } from "react-loader-spinner";
 import "./SearchEngine.css";
 
 export default function SearchEngine() {
   const [weatherData, setWeatherData] = useState({ ready: false });
 
   function handleSubmit(response) {
-    console.log(response.data.temperature.current);
     setWeatherData({
       ready: true,
       temperature: response.data.temperature.current,
       city: response.data.city,
-      date: "Last updated: Sunday 02:59",
+      date: new Date(response.data.time * 1000),
       description: response.data.condition.description,
       wind: response.data.wind.speed,
       humidity: response.data.temperature.humidity,
@@ -51,7 +52,9 @@ export default function SearchEngine() {
         <div className="overview pt-4 pb-4">
           <ul>
             <li className="city-name pb-3">{weatherData.city}</li>
-            <li>{weatherData.date}</li>
+            <li>
+              <FormattedDate date={weatherData.date} />
+            </li>
             <li class="text-capitalize">{weatherData.description}</li>
           </ul>
         </div>
@@ -86,6 +89,16 @@ export default function SearchEngine() {
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleSubmit);
 
-    return <p className="text-white">Loading...</p>;
+    return (
+      <BallTriangle
+        height="40"
+        width="80"
+        radius="9"
+        color="white"
+        ariaLabel="loading"
+        wrapperStyle
+        wrapperClass
+      />
+    );
   }
 }
