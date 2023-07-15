@@ -4,6 +4,7 @@ body {
 
   animation: slidein 100s;
   background-repeat: repeat-x;
+  background-size: cover;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -35,7 +36,7 @@ body {
     url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/089/877/original/Cloud-Desktop-Background.jpg?1689363719);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 @media (max-width: 700px) {
