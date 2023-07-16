@@ -10,7 +10,7 @@ function App() {
       <div className="container">
         <div className="weather-app">
           <Cities />
-          <SearchEngine />
+          <SearchEngine defaultCity="Nairobi" />
           <Forecast />
         </div>
         <Coder />
