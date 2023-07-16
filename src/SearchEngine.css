@@ -48,16 +48,16 @@
   left: -10px;
 }
 
-.SearchEngine img {
-  height: 60px;
-  width: 60px;
-  margin-right: 10px;
+.SearchEngine canvas {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
   position: relative;
-  bottom: -8px;
+  bottom: -12px;
 }
 
 @media (max-width: 280px) {
   .SearchEngine .search-location {
-  width: 220px;
-}
+    width: 220px;
+  }
 }
