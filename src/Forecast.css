@@ -1,15 +1,6 @@
 .Forecast {
   color: white;
   margin-top: 30px;
-}
-
-.Forecast img {
-  width: 30px;
-  display: block;
-  margin: 0 auto;
-}
-
-.Forecast .forecast-content {
   text-align: center;
 }
 
@@ -17,11 +8,12 @@
   border: 1px solid rgb(102, 109, 122);
   border-radius: 10px;
   padding: 30px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .Forecast .weather-forecast-temperature-min {
   opacity: 0.6;
+  margin-left: 5px;
 }
 
 .Forecast .forecast-content {

@@ -1,33 +1,20 @@
 import React from "react";
 import "./Forecast.css";
+import WeatherIcon from "./WeatherIcon";
 
 export default function Forecast() {
-  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri"];
   return (
     <div className="Forecast">
       <div class="weather-forecast">
         <div className="row">
-          {days.map(function (day, index) {
-            return (
-              <div className="col-2">
-                <div className="forecast-content" key={index}>
-                  {day}
-                </div>
-                <img
-                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-                  alt="Weather Icon"
-                  className="icon mb-3 mt-3"
-                ></img>{" "}
-                <div className="forecast-content">
-                  {" "}
-                  <span className="weather-forecast-temperature-max">
-                    25°
-                  </span>{" "}
-                  <span className="weather-forecast-temperature-min">15°</span>
-                </div>
-              </div>
-            );
-          })}
+          <div className="col">
+            <div className="forecast-content pb-2">Sun</div>
+            <WeatherIcon code="clear-sky-day" size={32} />
+            <div className="forecast-content pt-2">
+              <span className="weather-forecast-temperature-max">25°</span>
+              <span className="weather-forecast-temperature-min">15°</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

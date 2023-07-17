@@ -1,7 +1,6 @@
 import "./App.css";
 import Cities from "./Cities";
 import SearchEngine from "./SearchEngine";
-import Forecast from "./Forecast";
 import Coder from "./Coder";
 
 function App() {
@@ -11,7 +10,6 @@ function App() {
         <div className="weather-app">
           <Cities />
           <SearchEngine defaultCity="Nairobi" />
-          <Forecast />
         </div>
         <Coder />
       </div>

@@ -24,6 +24,7 @@
 
 .SearchEngine .alpha {
   color: white;
+  margin-top: 15px;
 }
 
 .SearchEngine .city-name {
@@ -34,26 +35,23 @@
 }
 
 .SearchEngine .temperature {
-  font-size: 58px;
-  font-weight: 600;
-  line-height: 1.2;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 1;
   position: relative;
-  left: -10px;
+  left: 10px;
 }
 
 .SearchEngine .degree-sign {
-  font-size: 17px;
+  font-size: 16px;
   position: relative;
-  bottom: 30px;
-  left: -6px;
+  bottom: 38px;
+  left: 12px;
 }
 
 .SearchEngine canvas {
-  height: 50px;
-  width: 50px;
-  margin-right: 15px;
   position: relative;
-  bottom: -12px;
+  bottom: -3px;
 }
 
 @media (max-width: 280px) {
