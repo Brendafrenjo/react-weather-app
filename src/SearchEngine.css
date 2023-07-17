@@ -42,10 +42,10 @@
 }
 
 .SearchEngine .degree-sign {
-  font-size: 18px;
+  font-size: 17px;
   position: relative;
-  bottom: -3px;
-  left: -10px;
+  bottom: 30px;
+  left: -6px;
 }
 
 .SearchEngine canvas {
