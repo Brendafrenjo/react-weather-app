@@ -32,11 +32,11 @@ body {
   border: 1px solid rgb(102, 109, 122);
   border-radius: 10px;
   padding: 30px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/089/877/original/Cloud-Desktop-Background.jpg?1689363719);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/090/252/original/IMG_1768-scaled.jpg?1689555265);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 @media (max-width: 700px) {
