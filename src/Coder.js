@@ -5,7 +5,9 @@ export default function Corder() {
   return (
     <small>
       <div className="Corder mt-3">
-        <span class="text-white">This project was coded by Brenda Omondi and is </span>
+        <span class="text-white">
+          This project was coded by Brenda Omondi and is{" "}
+        </span>
         <a
           href="https://github.com/Brendafrenjo/react-weather-app"
           target="_blank"
@@ -14,13 +16,15 @@ export default function Corder() {
         >
           open-sourced on GitHub
         </a>
-        <span className="coded-by text-white">
-          {" "}
-          and {" "}
-        </span>
+        <span className="coded-by text-white"> and </span>
 
-        <a href="https://heroic-pasca-a7d234.netlify.app/" class="text-white">
-        hosted on Netlify
+        <a
+          href="https://heroic-pasca-a7d234.netlify.app/"
+          class="text-white"
+          target="_blank"
+          rel="noreferrer"
+        >
+          hosted on Netlify
         </a>
       </div>
     </small>
