@@ -5,7 +5,7 @@ export default function Corder() {
   return (
     <small>
       <div className="Corder mt-3">
-        <span class="text-white">
+        <span className="text-white">
           This project was coded by Brenda Omondi and is{" "}
         </span>
         <a
@@ -20,7 +20,7 @@ export default function Corder() {
 
         <a
           href="https://heroic-pasca-a7d234.netlify.app/"
-          class="text-white"
+          className="text-white"
           target="_blank"
           rel="noreferrer"
         >
