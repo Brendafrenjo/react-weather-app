@@ -46,8 +46,8 @@ export default function SearchEngine(props) {
             <div className="col-sm-6">
               <input
                 type="search"
-                placeholder="Search location"
-                className="form-control shadow search-location"
+                placeholder="Enter a city.."
+                className="form-control shadow search-location w-100"
                 autoFocus="on"
                 onChange={updateCity}
               />
@@ -57,13 +57,6 @@ export default function SearchEngine(props) {
                 type="submit"
                 value="Search"
                 className="btn btn-primary search-btn"
-              />
-            </div>
-            <div className="col-sm-3">
-              <input
-                type="submit"
-                value="Current"
-                className="btn btn-success current-btn"
               />
             </div>
           </div>
